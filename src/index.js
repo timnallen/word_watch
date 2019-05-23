@@ -14,6 +14,10 @@ $(document).ready(() => {
 
   getValue();
 
+  window.setInterval(function() {
+    getValue();
+  }, 1000);
+
   $('#breakdown').on('click', function () {
     let value = $("textarea").val()
     alert(value + " was submitted!")
