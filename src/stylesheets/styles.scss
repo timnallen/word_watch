@@ -80,6 +80,13 @@ main {
       color: $salmon;
       padding: 10px;
     }
+    #word {
+      color: red;
+      font-size: 50px;
+    }
+    #count {
+      color: Purple;
+    }
     .word-count {
       display: flex;
       flex-wrap: wrap;
